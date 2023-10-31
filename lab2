@@ -28,4 +28,7 @@ nano new1.txt  #Give same file name but different content
 git add new1.txt
 git commit -m "Third commit to the branch"
 
-git checkout "Branch name"
+git checkout "branch_name"
+
+git checkout "main"
+
