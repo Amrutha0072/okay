@@ -10,3 +10,12 @@ git push
 
 # to create branch
 git checkout -b "branch_name"
+
+#create another file
+nano new1.txt
+git add new1.txt
+git commit -m "Second commit to the branch
+
+#create another branch
+git checkout -b "Second_branch_name"
+nano new1.txt  #Give same file name but different content
