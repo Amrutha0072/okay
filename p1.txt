@@ -8,7 +8,7 @@ $ git clone https://github.com/Amrutha0072/okay.git
 Cloning into 'okay'...
 warning: You appear to have cloned an empty repository.
 
-$ cd okay
+$ cd okay (okay is the new repo name created)
 
 $ git init
 Reinitialized existing Git repository in C:/Users/student/Desktop/lab2/okay/.git/
