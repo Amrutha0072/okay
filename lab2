@@ -1,7 +1,12 @@
 Search spring pet clinic
 fork it
-git clone "paste repo link"  {go to 
+git clone "paste repo link"  {go to code drop down to get link}
 continue same
+git init
+nano new.txt
+git add new.txt
+git commit -m "first commit"
+git push
 
 # to create branch
 git checkout -b "branch_name"
