@@ -1,7 +1,10 @@
 Search spring pet clinic
 fork it
+Idu ishte bai
+
+Now create new repository
 git clone "paste repo link"  {go to code drop down to get link}
-continue same
+{continue same}
 git init
 nano new.txt
 git add new.txt
