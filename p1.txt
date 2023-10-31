@@ -2,35 +2,27 @@
 student@CSSSL41 MINGW64 ~
 $ cd ..
 
-student@CSSSL41 MINGW64 /c/Users
 $ cd student/desktop/lab2
 
-student@CSSSL41 MINGW64 ~/desktop/lab2 (master)
 $ git clone https://github.com/Amrutha0072/okay.git
 Cloning into 'okay'...
 warning: You appear to have cloned an empty repository.
 
-student@CSSSL41 MINGW64 ~/desktop/lab2 (master)
 $ cd okay
 
-student@CSSSL41 MINGW64 ~/desktop/lab2/okay (main)
 $ git init
 Reinitialized existing Git repository in C:/Users/student/Desktop/lab2/okay/.git/
 
-student@CSSSL41 MINGW64 ~/desktop/lab2/okay (main)
 $ nano p1.txt
 
-student@CSSSL41 MINGW64 ~/desktop/lab2/okay (main)
 $ git add p1.txt
 warning: in the working copy of 'p1.txt', LF will be replaced by CRLF the next time Git touches it
 
-student@CSSSL41 MINGW64 ~/desktop/lab2/okay (main)
 $ git commit -m "first"
 [main (root-commit) 4c0d07a] first
  1 file changed, 1 insertion(+)
  create mode 100644 p1.txt
 
-student@CSSSL41 MINGW64 ~/desktop/lab2/okay (main)
 $ git push
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
