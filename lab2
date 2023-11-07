@@ -36,3 +36,4 @@ git diff
 
 cat alu.txt
 
+git merge --abort
