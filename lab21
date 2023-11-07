@@ -1,0 +1,26 @@
+git clone "repo link"
+
+cd "repo_name"
+git init
+git branch
+
+nano alu.txt   // Aluuuu
+git add alu.txt
+git commit -m "Aluu"
+
+git checkout -b "slave"
+
+git branch
+
+nano alu.txt   // Aluuu good girl
+git add alu.txt
+git commit -m "Alu commited"
+
+git checkout main
+
+nano alu.txt   // Aluuu very good girl
+
+git merge slave
+Auto-merging alu.txt
+CONFLICT (content): Merge conflict in alu.txt
+Automatic merge failed; fix conflicts and then commit the result.
