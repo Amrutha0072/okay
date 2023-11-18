@@ -77,6 +77,6 @@ General
   - javac Hello.java {java file name}
 
 save
-
+build now
 
 It'll become green then click it you'll get output
