@@ -73,6 +73,7 @@ General
   - paste git repo url
   - branch main/master
 - build steps
+  - excute windows batch command
   - javac Hello.java {java file name}
 
 save
