@@ -65,6 +65,8 @@ $ Hello.java
 Inside jenkkins
 localhost:8080
 
+New item
+Enter item name
 General
 - give description
 - source code -> git
