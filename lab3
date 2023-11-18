@@ -58,3 +58,22 @@ To https://github.com/Amrutha0072/lab.git
 
 student@MB MINGW64 ~/desktop/dev/lab (main)
 $ Hello.java
+
+
+
+
+Inside jenkkins
+localhost:8080
+
+General
+- give description
+- source code -> git
+  - paste git repo url
+  - branch main/master
+- build steps
+  - javac Hello.java {java file name}
+
+save
+
+
+It'll become green then click it you'll get output
