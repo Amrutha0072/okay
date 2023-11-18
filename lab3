@@ -2,3 +2,59 @@
 * install jdk 17
 * install jenkins
   - run as local 
+  - test port
+  - paste jdk-17 path
+  - firewall
+  - finish
+
+* open chrome localhost:8080
+  - click the link
+  - copy and paste the password
+  - create user
+
+Open VSCode
+- create java file
+
+Desktop
+- create a folder
+
+Git bash
+$ cd ..
+student@MB MINGW64 /c/Users
+$ cd student
+
+student@MB MINGW64 ~
+$ cd desktop/dev
+
+student@MB MINGW64 ~/desktop/dev
+$ git clone https://github.com/Amrutha0072/lab.git
+Cloning into 'lab'...
+warning: You appear to have cloned an empty repository.
+
+student@MB MINGW64 ~/desktop/dev
+$ cd lab
+
+<b> make sure you have java file in that folder </b>
+
+student@MB MINGW64 ~/desktop/dev/lab (main)
+$ git add .                                             // . is the java file
+
+student@MB MINGW64 ~/desktop/dev/lab (main)
+$ git commit -m "Java file"
+[main (root-commit) 719a394] Java file
+ 1 file changed, 5 insertions(+)
+ create mode 100644 Hello.java
+
+student@MB MINGW64 ~/desktop/dev/lab (main)
+$ git push
+Hello.javaEnumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 19.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Amrutha0072/lab.git
+ * [new branch]      main -> main
+
+student@MB MINGW64 ~/desktop/dev/lab (main)
+$ Hello.java
