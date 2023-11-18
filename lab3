@@ -34,7 +34,7 @@ warning: You appear to have cloned an empty repository.
 student@MB MINGW64 ~/desktop/dev
 $ cd lab
 
-<b> make sure you have java file in that folder </b>
+<b> make sure you have java file in that folder <b>
 
 student@MB MINGW64 ~/desktop/dev/lab (main)
 $ git add .                                             // . is the java file
