@@ -1,0 +1,20 @@
+CMD 1
+docker run hello-world
+docker pull mysql
+docker run mysql
+docker run -e MYSQL_ROOT_PASSWORD=admin -d mysql
+
+
+CMD 2
+docker run -it mysql /bin/bash
+
+CMD 3
+docker container ls
+docker inspect "name"
+
+CMD 2
+mysql -h ip_address -u root -p
+
+password
+create database jai;
+show schemas;
