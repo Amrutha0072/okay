@@ -14,7 +14,7 @@ git branch
 
 nano alu.txt   // Aluuu good girl
 git add alu.txt
-git commit -m "Alu commited"
+git commit -m "Alu file commited"
 
 git checkout main
 
