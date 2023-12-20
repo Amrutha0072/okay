@@ -1,0 +1,23 @@
+-> install slack
+-> create an account: 20ise0007@vvce.ac.in 
+-> go to jenkins
+  -> manage jenkins -> plugins -> available plugins -> slack notifications, global slack notifier -> select and install
+  -> https://plugins.jenkins.io/slack/ -> go to the url in the second point (https://p6crew.slack.com/apps/new/A0F7VRFKN-jenkins-ci) 
+    -> select a slack channel (here, #anyname) -> add jenkins ci integration
+      -> in step 3, copy the Integration Token Credential ID (here, 1OfoTi4ThRH9bvrrRqPXzciG)
+-> go to jenkins -> manage jenkins -> system -> scroll down and in slack section
+  -> enter the slack workspace name (here, p6)
+  -> credential -> add -> jenkins
+  -> kind -> secret text
+    ->secret: 1OfoTi4ThRH9bvrrRqPXzciG
+    -> description: program 6
+  -> save
+
+  -> new item (HelloWorld)
+  -> build steps -> Execute Windows batch command -> java --version
+  -> Post-build Actions -> Slack Notifications -> select all the options
+  -> save
+  
+  -> build now
+
+-> check slack channel -> "added an integration to this channel: jenkins"
