@@ -21,15 +21,14 @@ chrome:
 pom.xml:
   ->remove from <Dependencies> the <dependency> section and paste the above xml tags
 
-create a new folder called "jsonfile"  in the maven project
-  ->create a new file in that folder called "emp.json" 
-    -> add the contents, save and exit
-       "{
-            "firstname": "Shae",
-            "lastname":"Rise"
-        }"
-
 eclipse:
+  -> create a new folder called "jsonfile"  in the maven project
+    ->create a new file in that folder called "emp.json" 
+      -> add the foll. contents, save and exit
+         "{
+              "firstname": "Shae",
+              "lastname":"Rise"
+          }"
   -> in src/test/java create a new class and name it "Example"
   -> content of that class:
 
