@@ -1,0 +1,62 @@
+Eclipse:
+  -> create a maven project
+    -> filters: org.apache.maven.archetypes (consider the one with artifact id: maven-archetype-quickstart)
+    -> next
+  -> group ID: any name (here, Program 7)
+     artifact ID: any name (here, Program 7)
+     finish
+     gives a prompt on the console "Y : :" give "Y"
+     "BUILD SUCCESSFUL"
+
+chrome:
+  ->"maven repository"
+    ->search for simple json
+    ->select JSON.simple -> select 1.1.1 (https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple/1.1.1) -> copy the "maven" section: 
+      <dependency>
+          <groupId>com.googlecode.json-simple</groupId>
+          <artifactId>json-simple</artifactId>
+          <version>1.1.1</version>
+      </dependency>
+
+pom.xml:
+  ->remove from <Dependencies> the <dependency> section and paste the above xml tags
+
+create a new folder called "jsonfile"  in the maven project
+  ->create a new file in that folder called "emp.json" 
+    -> add the contents, save and exit
+       "{
+            "firstname": "Shae",
+            "lastname":"Rise"
+        }"
+
+eclipse:
+  -> in src/test/java create a new class and name it "Example"
+  -> content of that class:
+
+        import java.io.FileNotFoundException;
+        import java.io.FileReader;
+        import java.io.IOException;
+        import java.text.ParseException;
+        
+        import org.json.simple.JSONObject;
+        import org.json.simple.parser.JSONParser;
+        
+        public class Example 
+        {
+        	public static void main(String [] args) throws IOException,ParseException, org.json.simple.parser.ParseException
+        	{
+        		JSONParser jsonparser = new JSONParser();
+        		FileReader filereader = new FileReader (".\\jsonfile\\emp.json");
+        		Object obj = jsonparser.parse(filereader);
+        		JSONObject empobj = (JSONObject)obj;
+        		String fname = (String) empobj.get("firstname");
+        		String lname= (String) empobj.get("lastname");
+        		
+        		System.out.print("firstname: "+ fname);
+        		System.out.print("lastname: "+ lname);
+        	}
+        }
+
+  -> OUTPUT:
+      "firstname: Shae
+       lastname: Rise"
