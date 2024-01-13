@@ -8,7 +8,7 @@ paste in browser and downnload -> extract
 create a folder in c drive as chrome web driver and paste the chromedriver copy
 Open eclipse -> create java project -> JavaSE - 1.8 
 Right click on folder -> new -. package
-Right click on folder -> Build Path -> Configure build path -> Add external JAR's -> selenium.exe in C drive file(Copied and pasted one)
+Right click on folder -> Build Path -> Configure build path -> Libraries(top of selected file)-> Add external JAR's -> selenium.exe in C drive file(Copied and pasted one)
 Create class(if not there) -> type code
 
 package ok;
