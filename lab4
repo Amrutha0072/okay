@@ -4,3 +4,15 @@
 Ctrl panel --> System & security --> Advanced system settings --> Environment variable --> System variables --> PATH --> copy python path --> set 
 
 Write python program
+
+Dockerfile
+FROM python
+WORKDIR /app
+COPY . /app
+CMD ['python', 'vp.py']
+
+
+>> cd vp
+>> docker images
+>> docker build -t vp2
+>> docker run --name anything vp2
